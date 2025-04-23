@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Internet das Coisas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-
+        
 
 
     <!-- inicio div principal -->
@@ -26,12 +26,12 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#sobre-mim"><i class="fa fa-user"></i> Sobre Mim</a></li>
-                <li><a href="#materias"><i class="fa fa-book"></i> Matérias</a></li>
-                <li><a href="#tecnico"><i class="fa fa-code"></i> Técnico</a></li>
-                <li><a href="#habilidades"><i class="fa fa-plus"></i> Habilidades</a></li>
-                <li><a href="#certificados"><i class="fa fa-briefcase"></i> Certificados</a></li>
+                <li><a href="index.html#home"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="index.html#sobre-mim"><i class="fa fa-user"></i> Sobre Mim</a></li>
+                <li><a href="index.html#materias"><i class="fa fa-book"></i> Matérias</a></li>
+                <li><a href="index.html#tecnico"><i class="fa fa-code"></i> Técnico</a></li>
+                <li><a href="index.html#habilidades"><i class="fa fa-plus"></i> Habilidades</a></li>
+                <li><a href="index.html#certificados"><i class="fa fa-briefcase"></i> Certificados</a></li>
             </ul>
          </div>
         <!-- final sidebar -->
@@ -43,17 +43,17 @@
 
 
             <!-- seção home inicio -->
-             <section id="home" class="home section">
+             <section id="home" class="home section hidden">
                 <div class="container">
                     <div class="row">
                         <div class="home-info">
                             <h3 class="hello">O meu nome é <span class="nome">Tairo Pureza</span></h3>
                             <h3 class="minhaOcupação">Eu sou um <span class="escrevendo">Estudante de Programação</span></h3>
                             <p></p>
-                            <a href="index.html" class="btn me-contrate">Mais sobre mim</a>
+                            
                         </div>
                         <div class="home-img">
-                            <img src="imagens/perfil.jpeg" alt="n foi possivel carregar a imagem" class="img-fluid">
+                            <img src="../../imagens/perfil.jpeg" alt="n foi possivel carregar a imagem" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
 
 
             <!-- seção sobre inicio -->
-             <section id="sobre-mim" class="about section">
+             <section id="sobre-mim" class="about section hidden">
                 <div class="container">
                     <div class="row">
                         <div class="section-title">
@@ -214,26 +214,28 @@
              </section>
             <!-- seção sobre final -->
 
-            <!-- materias inicio -->
+            <!-- habilidades inicio -->
              <section id="materias" class="materias section">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
-                            <h2>Matérias</h2>
+                            <h2>Internet da Coisas</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <button id="linguagens" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Linguagens</button>
-                        <button id="humanas" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Humanas</button>
-                        <button id="matematica" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Matemática</button>
-                        <button id="natureza" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Natureza</button>
+                        <button id="1°trimestre" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">1° trimestre</button>
+                        <div class="atividades ativo" id="atividades">
+                            <div class="atv1">
+                                <h3>Não foi solicitada nenhuma atividade este trimestre</h3>
+                            </div>
+                        </div>
+                        <button id="2°trimestre" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">2° trimestre</button>
+                        <button id="3°trimestre" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">3° trimestre</button>
                     </div>
                 </div>
              </section>
-            <!-- materias final -->
 
-            <!-- tecnico inicio -->
-             <section id="tecnico" class="tecnico section">
+             <section id="tecnico" class="tecnico section hidden">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -241,15 +243,14 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div id="modelagem" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Modelagem de Sistemas</div>
-                        <div id="desenvolvimento" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Desenvolvimento de Sistemas</div>
-                        <div id="iot" class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Internet das Coisas</div>
+                        <div class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Modelagem de Sistemas</div>
+                        <div class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Desenvolvimento de Sistemas</div>
+                        <div class="btn padd-15" style="width: 100%; text-align: center; margin-bottom: 20px;">Internet das Coisas</div>
                     </div>
                 </div>
              </section>
-            <!-- tecnico final -->
 
-             <section id="habilidades" class="habilidades section">
+             <section id="habilidades" class="habilidades section hidden">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -335,7 +336,7 @@
              </section>
             <!-- habilidades final -->
             <!-- Certificados inicio -->
-             <section id="certificados" class="certificados section">
+             <section id="certificados" class="certificados section hidden">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -352,7 +353,7 @@
                         <div class="certificado-item padd-15">
                             <div class="certificado-item-inner shadow-dark">
                                 <div class="certificado-img">
-                                    <img src="imagens/Tairo Pureza da Silva - INTERMEDIÁRIO1.png" alt="n foi possivel carregar a imagem" class="img-fluid">
+                                    <img src="../../imagens/Tairo Pureza da Silva - INTERMEDIÁRIO1.png" alt="n foi possivel carregar a imagem" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -361,7 +362,7 @@
                         <div class="certificado-item padd-15">
                             <div class="certificado-item-inner shadow-dark">
                                 <div class="certificado-img">
-                                    <img src="imagens/Tairo Pureza da Silva - INTERMEDIÁRIO2.png" alt="n foi possivel carregar a imagem" class="img-fluid">
+                                    <img src="../../imagens/Tairo Pureza da Silva - INTERMEDIÁRIO2.png" alt="n foi possivel carregar a imagem" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -370,7 +371,7 @@
                         <div class="certificado-item padd-15">
                             <div class="certificado-item-inner shadow-dark">
                                 <div class="certificado-img">
-                                    <a href="https://www.canva.com/design/DAF06SEyD4Y/NPe2cLU6Nkbgq1XJcN8I7g/view?utm_content=DAF06SEyD4Y&utm_campaign=designshare&utm_medium=link&utm_source=editor"><img src="imagens/curie.jpg" alt=""></a>
+                                    <a href="https://www.canva.com/design/DAF06SEyD4Y/NPe2cLU6Nkbgq1XJcN8I7g/view?utm_content=DAF06SEyD4Y&utm_campaign=designshare&utm_medium=link&utm_source=editor"><img src="../../imagens/curie.jpg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -397,6 +398,6 @@
 
     <!-- final div principal -->
 
-    <script src="index.js"></script>
+    <script src="materias.js"></script>
 </body>
 </html>
