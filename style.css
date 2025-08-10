@@ -760,6 +760,7 @@ h3.minhaOcupação
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .atividades .atv1 p, .atividades .atv2 p {
