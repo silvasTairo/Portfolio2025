@@ -73,6 +73,7 @@ ul
     max-width: 1100px;
     width: 100%;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .section .container
@@ -128,7 +129,7 @@ ul
     margin-left: -15px;
     margin-right: -15px;
     position: relative;
-
+    margin-bottom: 0;
 }
 
 .btn
@@ -739,35 +740,40 @@ h3.minhaOcupação
 .atividades {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 80px;
+    gap: 20px;
+    margin-bottom: 10px;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
     animation: fadeOut 1s ease-in-out forwards;
-    margin-bottom: 50px;
 }
 
-.atividades .atv1, .atividades .atv2 {
-    flex: 1;
-    text-align: center;
-}
-
-.atividades .atv1 img, .atividades .atv2 img {
+.atividades img,
+.atividadesMenor img {
     width: 100%;
-    max-width: 700px;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
 }
 
-.atividades .atv1 p, .atividades .atv2 p {
+.atividades p,
+.atividadesMenor p{
     margin-top: 10px;
     font-size: 14px;
     color: #000;
 }
+
+.atividadesMenor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    animation: fadeOut 1s ease-in-out forwards;
+}
+
 
 .ativo {
     display: none !important;
