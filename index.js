@@ -43,3 +43,7 @@ document.getElementById("desenvolvimento").onclick = function() {
 document.getElementById("iot").onclick = function() {
     window.location.href = "iot.html";
 };
+
+document.getElementById("banco_dados").onclick = function() {
+    window.location.href = "banco_dados.html";
+};
