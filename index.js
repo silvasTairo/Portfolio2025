@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('.sidebar .nav a');
+    const links = document.querySelectorAll('.sidebar .nav a, .btn.me-contrate');
 
     links.forEach(link => {
         link.addEventListener('click', (event) => {

@@ -1,0 +1,1 @@
+- [x] Change the href of the "Mais sobre mim" button in index.html from "index.html" to "#sobre-mim"
