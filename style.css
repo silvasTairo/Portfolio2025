@@ -144,6 +144,7 @@ ul
     border: none;
     background: var(--skin-color);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .shadow-dark
@@ -364,7 +365,7 @@ h3.minhaOcupação
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: 10px;
-    bottom: -30px;
+    bottom: -10px;
 }
 
 .home-img::before
@@ -376,7 +377,7 @@ h3.minhaOcupação
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
     left: 10px;
-    top: -30px;
+    top: -15px;
 }
 
 .home .home-img img
@@ -444,6 +445,7 @@ h3.minhaOcupação
 .about .about-content .personal-info .buttons
 {
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .about .about-content .personal-info .buttons .btn
@@ -786,4 +788,27 @@ h3.minhaOcupação
     to {
         opacity: 1;
     }
+}
+
+.tituloPort{
+    color: var(--text-black-900);
+}
+
+.capas{
+    width: 90%;
+    border-radius: 5%;
+}
+
+.divscapa{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trailer{
+    align-items: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: var(--text-black-900);
+    background-color: #10b3db;
 }
